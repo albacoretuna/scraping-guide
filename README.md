@@ -1,6 +1,12 @@
 # scraping-guide
 A series of tips and tricks about scraping coordination data from websites. 
 
+### Tools 
+I have a set of tools that I've been happy working with so far: 
+  * Casperjs (a headless browser for testing, based on PhantomJS)
+  * Linux
+  * Chrome dev tools 
+
 ### UK post code prefixes 
 Here are post code areas of UK, but for each section only the first one. If the map you're trying to scrape has few places marked in each area, then probably iterating over this array would be enough to get all the places. 
 
