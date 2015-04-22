@@ -7,6 +7,9 @@ I have a set of tools that I've been happy working with so far:
   * Linux
   * Chrome dev tools 
 
+## Scraping Map Data 
+Imagine you need to gather the store locations of a retail business. For that purpose you need to go to their website and scrape all addresses. Or you might need to find out the map coordination points of the shops. 
+
 ### UK post code prefixes 
 Here are post code areas of UK, but for each section only the first one. If the map you're trying to scrape has few places marked in each area, then probably iterating over this array would be enough to get all the places. 
 
