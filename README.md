@@ -6,9 +6,19 @@ I have a set of tools that I've been happy working with so far:
   * Casperjs (a headless browser for testing, based on PhantomJS)
   * Linux
   * Chrome dev tools 
+  * chrome postman REST api tool 
 
 ## Scraping Map Data 
 Imagine you need to gather the store locations of a retail business. For that purpose you need to go to their website and scrape all addresses. Or you might need to find out the map coordination points of the shops. 
+
+### Getting Started
+  * Open the page in which the map is loaded
+  * Open chrome dev tools, go to the network tab
+  * search for an address, and look for the request that's responsible for loading the map. Different things might be going on in here. 
+    *  If you're lucky, the request returns all the points of interest in JSON format! 
+    *  Or it returns only parts of the points, but with an prametere to ask for more
+    *  or it just returns a small number of points
+
 
 ### UK post code prefixes 
 Here are post code areas of UK, but for each section only the first one. If the map you're trying to scrape has few places marked in each area, then probably iterating over this array would be enough to get all the places. 
