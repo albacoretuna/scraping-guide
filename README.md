@@ -10,6 +10,12 @@ I have a set of tools that I've been happy working with so far:
 
 ## Scraping Map Data 
 Imagine you need to gather the store locations of a retail business. For that purpose you need to go to their website and scrape all addresses. Or you might need to find out the map coordination points of the shops. 
+The process that I've found to be most usefule is like this: 
+  * open the page in chrome
+  * open developer's console
+  * press escape go bring up the search box and search for an approximate coordination number. For example if the shop is in filand I'd search for 60. 
+  * hopefully it's easy to find where the coordination numbers are used in the code. 
+  * hopefully all the points on map are in a global JavaScript variable 
 
 ### Getting Started
   * Open the page in which the map is loaded
