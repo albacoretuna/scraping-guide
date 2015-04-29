@@ -13,10 +13,10 @@ Imagine you need to gather the store locations of a retail business. For that pu
 The process that I've found to be most usefule is like this: 
   * open the page in chrome
   * open developer's console
-  * press escape go bring up the search box and search for an approximate coordination number. For example if the shop is in filand I'd search for 60. 
+  * press escape go bring up the search box and search for an approximate coordination number. For example if the shop is in filand I'd search for this number: 60. 
   * hopefully it's easy to find where the coordination numbers are used in the code. 
   * hopefully all the points on map are in a global JavaScript variable 
-
+In any of those cases you can scrape the data using casperjs. 
 ### Getting Started
   * Open the page in which the map is loaded
   * Open chrome dev tools, go to the network tab
