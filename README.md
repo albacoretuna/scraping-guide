@@ -6,6 +6,7 @@ I have a set of tools that I've been happy working with so far:
   * Casperjs (a headless browser for testing, based on PhantomJS)
   * Linux
   * Chrome dev tools 
+   * This is definitely useful! If you don't know dev tools well, I recommend taking this free 2 hour course by codeschool to learn more about dev tools: http://discover-devtools.codeschool.com/ 
   * chrome postman REST api tool 
 
 ## Scraping Map Data 
