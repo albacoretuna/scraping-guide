@@ -18,6 +18,7 @@ The process that I've found to be most usefule is like this:
   * hopefully it's easy to find where the coordination numbers are used in the code. 
   * hopefully all the points on map are in a global JavaScript variable 
 In any of those cases you can scrape the data using casperjs. 
+
 ### Getting Started
   * Open the page in which the map is loaded
   * Open chrome dev tools, go to the network tab
